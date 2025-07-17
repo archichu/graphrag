@@ -1,0 +1,163 @@
+2025-07-10 15:57:37,755 - src.utils - INFO - Config loaded from config/config.yaml
+2025-07-10 15:57:37,755 - src.graph_builder - WARNING - spaCy model not found. Installing...
+2025-07-10 16:04:46,933 - src.utils - INFO - Config loaded from config/config.yaml
+2025-07-10 16:05:09,527 - src.utils - INFO - Config loaded from config/config.yaml
+2025-07-10 16:05:09,756 - nano-graphrag - INFO - Creating working directory ./graphrag_cache
+2025-07-10 16:05:09,756 - nano-graphrag - INFO - Load KV full_docs with 0 data
+2025-07-10 16:05:09,756 - nano-graphrag - INFO - Load KV text_chunks with 0 data
+2025-07-10 16:05:09,757 - nano-graphrag - INFO - Load KV llm_response_cache with 0 data
+2025-07-10 16:05:09,757 - nano-graphrag - INFO - Load KV community_reports with 0 data
+2025-07-10 16:05:09,757 - nano-vectordb - INFO - Init {'embedding_dim': 1536, 'metric': 'cosine', 'storage_file': './graphrag_cache/vdb_entities.json'} 0 data
+2025-07-10 16:05:09,757 - src.rag_engine - INFO - GraphRAG initialized successfully
+2025-07-10 16:05:09,757 - src.rag_engine - INFO - Initializing GraphRAG from dataset...
+2025-07-10 16:05:09,757 - src.data_loader - INFO - Loading SQuAD dataset...
+2025-07-10 16:05:19,895 - src.data_loader - ERROR - Error loading SQuAD dataset: Couldn't reach 'squad' on the Hub (LocalEntryNotFoundError)
+2025-07-10 16:29:23,553 - src.utils - INFO - Config loaded from config/config.yaml
+2025-07-10 16:29:23,843 - nano-graphrag - INFO - Load KV full_docs with 0 data
+2025-07-10 16:29:23,843 - nano-graphrag - INFO - Load KV text_chunks with 0 data
+2025-07-10 16:29:23,843 - nano-graphrag - INFO - Load KV llm_response_cache with 0 data
+2025-07-10 16:29:23,843 - nano-graphrag - INFO - Load KV community_reports with 0 data
+2025-07-10 16:29:23,843 - nano-vectordb - INFO - Init {'embedding_dim': 1536, 'metric': 'cosine', 'storage_file': './graphrag_cache/vdb_entities.json'} 0 data
+2025-07-10 16:29:23,843 - src.rag_engine - INFO - GraphRAG initialized successfully
+2025-07-10 16:29:23,843 - src.rag_engine - INFO - Initializing GraphRAG from dataset...
+2025-07-10 16:29:23,843 - src.data_loader - INFO - Loading SQuAD dataset...
+2025-07-10 16:29:23,843 - src.data_loader - INFO - 尝试从 Hugging Face Hub 加载数据集...
+2025-07-10 16:29:23,910 - datasets - INFO - PyTorch version 2.7.1 available.
+2025-07-10 16:29:24,216 - src.data_loader - WARNING - 从 Hugging Face Hub 加载失败: Couldn't reach 'squad' on the Hub (LocalEntryNotFoundError)
+2025-07-10 16:29:24,216 - src.data_loader - INFO - 尝试从 HF Mirror 加载数据集...
+2025-07-10 16:29:24,322 - src.data_loader - WARNING - 从 HF Mirror 加载失败: Couldn't reach 'squad' on the Hub (LocalEntryNotFoundError)
+2025-07-10 16:29:24,322 - src.data_loader - INFO - 尝试从其他镜像加载数据集...
+2025-07-10 16:29:24,430 - src.data_loader - ERROR - 所有数据源都加载失败: Couldn't reach 'squad' on the Hub (LocalEntryNotFoundError)
+2025-07-10 16:29:24,431 - src.data_loader - INFO - 使用示例数据替代...
+2025-07-10 16:29:24,431 - src.data_loader - INFO - 使用内置示例数据...
+2025-07-10 16:29:24,431 - src.graph_builder - INFO - Building knowledge graph from documents...
+2025-07-10 16:29:24,432 - src.graph_builder - INFO - Created 1 chunks for sample_1
+2025-07-10 16:29:24,432 - src.graph_builder - INFO - Created 1 chunks for sample_2
+2025-07-10 16:29:24,432 - src.graph_builder - INFO - Created 1 chunks for sample_3
+2025-07-10 16:29:24,432 - src.graph_builder - INFO - Created 1 chunks for sample_4
+2025-07-10 16:29:24,432 - src.graph_builder - INFO - Created 1 chunks for sample_5
+2025-07-10 16:29:24,433 - src.graph_builder - INFO - Created 1 chunks for sample_6
+2025-07-10 16:29:24,433 - src.graph_builder - INFO - Created 1 chunks for sample_7
+2025-07-10 16:29:24,433 - src.graph_builder - INFO - Created 1 chunks for sample_8
+2025-07-10 16:29:24,596 - src.graph_builder - INFO - Built 357 entity relationships
+2025-07-10 16:29:24,596 - src.graph_builder - INFO - Built graph with 70 nodes and 357 edges
+2025-07-10 16:29:24,598 - src.graph_builder - INFO - Detected 7 communities
+2025-07-10 16:29:24,598 - src.rag_engine - INFO - Inserting documents into nano-graphrag...
+2025-07-10 16:29:24,599 - nano-graphrag - INFO - [New Docs] inserting 1 docs
+2025-07-10 16:29:28,235 - nano-graphrag - INFO - [New Chunks] inserting 1 chunks
+2025-07-10 16:29:28,235 - nano-graphrag - INFO - [Entity Extraction]...
+2025-07-10 16:29:28,236 - nano-graphrag - INFO - Writing graph with 0 nodes, 0 edges
+2025-07-17 14:22:28,376 - src.utils - INFO - Config loaded from config/config.yaml
+2025-07-17 14:22:28,684 - nano-graphrag - INFO - Load KV full_docs with 0 data
+2025-07-17 14:22:28,684 - nano-graphrag - INFO - Load KV text_chunks with 0 data
+2025-07-17 14:22:28,685 - nano-graphrag - INFO - Load KV llm_response_cache with 0 data
+2025-07-17 14:22:28,685 - nano-graphrag - INFO - Load KV community_reports with 0 data
+2025-07-17 14:22:28,686 - nano-graphrag - INFO - Loaded graph from ./graphrag_cache/graph_chunk_entity_relation.graphml with 0 nodes, 0 edges
+2025-07-17 14:22:28,687 - nano-vectordb - INFO - Load (0, 1536) data
+2025-07-17 14:22:28,687 - nano-vectordb - INFO - Init {'embedding_dim': 1536, 'metric': 'cosine', 'storage_file': './graphrag_cache/vdb_entities.json'} 0 data
+2025-07-17 14:22:28,687 - src.rag_engine - INFO - GraphRAG initialized successfully
+2025-07-17 14:22:28,687 - src.rag_engine - INFO - Initializing GraphRAG from dataset...
+2025-07-17 14:22:28,687 - src.data_loader - INFO - Loading SQuAD dataset...
+2025-07-17 14:22:28,687 - src.data_loader - INFO - 尝试从 Hugging Face Hub 加载数据集...
+2025-07-17 14:22:28,761 - datasets - INFO - PyTorch version 2.7.1 available.
+2025-07-17 14:22:29,652 - src.data_loader - WARNING - 从 Hugging Face Hub 加载失败: Couldn't reach 'squad' on the Hub (LocalEntryNotFoundError)
+2025-07-17 14:22:29,653 - src.data_loader - INFO - 尝试从 HF Mirror 加载数据集...
+2025-07-17 14:22:29,814 - src.data_loader - WARNING - 从 HF Mirror 加载失败: Couldn't reach 'squad' on the Hub (LocalEntryNotFoundError)
+2025-07-17 14:22:29,814 - src.data_loader - INFO - 尝试从其他镜像加载数据集...
+2025-07-17 14:22:29,977 - src.data_loader - ERROR - 所有数据源都加载失败: Couldn't reach 'squad' on the Hub (LocalEntryNotFoundError)
+2025-07-17 14:22:29,977 - src.data_loader - INFO - 使用示例数据替代...
+2025-07-17 14:22:29,977 - src.data_loader - INFO - 使用内置示例数据...
+2025-07-17 14:22:29,978 - src.graph_builder - INFO - Building knowledge graph from documents...
+2025-07-17 14:22:29,978 - src.graph_builder - INFO - Created 1 chunks for sample_1
+2025-07-17 14:22:29,978 - src.graph_builder - INFO - Created 1 chunks for sample_2
+2025-07-17 14:22:29,978 - src.graph_builder - INFO - Created 1 chunks for sample_3
+2025-07-17 14:22:29,979 - src.graph_builder - INFO - Created 1 chunks for sample_4
+2025-07-17 14:22:29,979 - src.graph_builder - INFO - Created 1 chunks for sample_5
+2025-07-17 14:22:29,979 - src.graph_builder - INFO - Created 1 chunks for sample_6
+2025-07-17 14:22:29,979 - src.graph_builder - INFO - Created 1 chunks for sample_7
+2025-07-17 14:22:29,979 - src.graph_builder - INFO - Created 1 chunks for sample_8
+2025-07-17 14:22:30,130 - src.graph_builder - INFO - Built 357 entity relationships
+2025-07-17 14:22:30,131 - src.graph_builder - INFO - Built graph with 70 nodes and 357 edges
+2025-07-17 14:22:30,133 - src.graph_builder - INFO - Detected 7 communities
+2025-07-17 14:22:30,133 - src.rag_engine - INFO - Inserting documents into nano-graphrag...
+2025-07-17 14:22:30,133 - nano-graphrag - INFO - [New Docs] inserting 1 docs
+2025-07-17 14:22:33,060 - nano-graphrag - INFO - [New Chunks] inserting 1 chunks
+2025-07-17 14:22:33,060 - nano-graphrag - INFO - [Entity Extraction]...
+2025-07-17 14:22:33,361 - httpx - INFO - HTTP Request: POST https://idealab.alibaba-inc.com/api/openai/v1/chat/completions "HTTP/1.1 400 "
+2025-07-17 14:22:33,373 - nano-graphrag - INFO - Writing graph with 0 nodes, 0 edges
+2025-07-17 14:37:06,496 - src.utils - INFO - Config loaded from config/config.yaml
+2025-07-17 14:37:06,777 - nano-graphrag - INFO - Load KV full_docs with 0 data
+2025-07-17 14:37:06,777 - nano-graphrag - INFO - Load KV text_chunks with 0 data
+2025-07-17 14:37:06,778 - nano-graphrag - INFO - Load KV llm_response_cache with 0 data
+2025-07-17 14:37:06,778 - nano-graphrag - INFO - Load KV community_reports with 0 data
+2025-07-17 14:37:06,779 - nano-graphrag - INFO - Loaded graph from ./graphrag_cache/graph_chunk_entity_relation.graphml with 0 nodes, 0 edges
+2025-07-17 14:37:06,779 - nano-vectordb - INFO - Load (0, 1536) data
+2025-07-17 14:37:06,779 - nano-vectordb - INFO - Init {'embedding_dim': 1536, 'metric': 'cosine', 'storage_file': './graphrag_cache/vdb_entities.json'} 0 data
+2025-07-17 14:37:06,779 - src.rag_engine - INFO - GraphRAG initialized successfully
+2025-07-17 14:37:06,779 - src.rag_engine - INFO - Initializing GraphRAG from dataset...
+2025-07-17 14:37:06,779 - src.data_loader - INFO - Loading SQuAD dataset...
+2025-07-17 14:37:06,779 - src.data_loader - INFO - 尝试从 Hugging Face Hub 加载数据集...
+2025-07-17 14:37:06,846 - datasets - INFO - PyTorch version 2.7.1 available.
+2025-07-17 14:37:07,129 - src.data_loader - WARNING - 从 Hugging Face Hub 加载失败: Couldn't reach 'squad' on the Hub (LocalEntryNotFoundError)
+2025-07-17 14:37:07,129 - src.data_loader - INFO - 尝试从 HF Mirror 加载数据集...
+2025-07-17 14:37:07,235 - src.data_loader - WARNING - 从 HF Mirror 加载失败: Couldn't reach 'squad' on the Hub (LocalEntryNotFoundError)
+2025-07-17 14:37:07,235 - src.data_loader - INFO - 尝试从其他镜像加载数据集...
+2025-07-17 14:37:07,301 - src.data_loader - ERROR - 所有数据源都加载失败: Couldn't reach 'squad' on the Hub (LocalEntryNotFoundError)
+2025-07-17 14:37:07,301 - src.data_loader - INFO - 使用示例数据替代...
+2025-07-17 14:37:07,301 - src.data_loader - INFO - 使用内置示例数据...
+2025-07-17 14:37:07,301 - src.graph_builder - INFO - Building knowledge graph from documents...
+2025-07-17 14:37:07,302 - src.graph_builder - INFO - Created 1 chunks for sample_1
+2025-07-17 14:37:07,302 - src.graph_builder - INFO - Created 1 chunks for sample_2
+2025-07-17 14:37:07,302 - src.graph_builder - INFO - Created 1 chunks for sample_3
+2025-07-17 14:37:07,302 - src.graph_builder - INFO - Created 1 chunks for sample_4
+2025-07-17 14:37:07,303 - src.graph_builder - INFO - Created 1 chunks for sample_5
+2025-07-17 14:37:07,303 - src.graph_builder - INFO - Created 1 chunks for sample_6
+2025-07-17 14:37:07,303 - src.graph_builder - INFO - Created 1 chunks for sample_7
+2025-07-17 14:37:07,303 - src.graph_builder - INFO - Created 1 chunks for sample_8
+2025-07-17 14:37:07,461 - src.graph_builder - INFO - Built 357 entity relationships
+2025-07-17 14:37:07,461 - src.graph_builder - INFO - Built graph with 70 nodes and 357 edges
+2025-07-17 14:37:07,464 - src.graph_builder - INFO - Detected 7 communities
+2025-07-17 14:37:07,464 - src.rag_engine - INFO - Inserting documents into nano-graphrag...
+2025-07-17 14:37:07,464 - nano-graphrag - INFO - [New Docs] inserting 1 docs
+2025-07-17 14:37:07,622 - nano-graphrag - INFO - [New Chunks] inserting 1 chunks
+2025-07-17 14:37:07,622 - nano-graphrag - INFO - [Entity Extraction]...
+2025-07-17 14:37:07,912 - httpx - INFO - HTTP Request: POST https://idealab.alibaba-inc.com/api/openai/v1/chat/completions "HTTP/1.1 400 "
+2025-07-17 14:37:07,916 - nano-graphrag - INFO - Writing graph with 0 nodes, 0 edges
+2025-07-17 14:43:11,444 - src.utils - INFO - Config loaded from config/config.yaml
+2025-07-17 14:43:11,726 - nano-graphrag - INFO - Load KV full_docs with 0 data
+2025-07-17 14:43:11,727 - nano-graphrag - INFO - Load KV text_chunks with 0 data
+2025-07-17 14:43:11,727 - nano-graphrag - INFO - Load KV llm_response_cache with 0 data
+2025-07-17 14:43:11,727 - nano-graphrag - INFO - Load KV community_reports with 0 data
+2025-07-17 14:43:11,728 - nano-graphrag - INFO - Loaded graph from ./graphrag_cache/graph_chunk_entity_relation.graphml with 0 nodes, 0 edges
+2025-07-17 14:43:11,728 - nano-vectordb - INFO - Load (0, 1536) data
+2025-07-17 14:43:11,728 - nano-vectordb - INFO - Init {'embedding_dim': 1536, 'metric': 'cosine', 'storage_file': './graphrag_cache/vdb_entities.json'} 0 data
+2025-07-17 14:43:11,728 - src.rag_engine - INFO - GraphRAG initialized successfully
+2025-07-17 14:43:11,729 - src.rag_engine - INFO - Initializing GraphRAG from dataset...
+2025-07-17 14:43:11,729 - src.data_loader - INFO - Loading SQuAD dataset...
+2025-07-17 14:43:11,729 - src.data_loader - INFO - 尝试从 Hugging Face Hub 加载数据集...
+2025-07-17 14:43:11,803 - datasets - INFO - PyTorch version 2.7.1 available.
+2025-07-17 14:43:12,152 - src.data_loader - WARNING - 从 Hugging Face Hub 加载失败: Couldn't reach 'squad' on the Hub (LocalEntryNotFoundError)
+2025-07-17 14:43:12,152 - src.data_loader - INFO - 尝试从 HF Mirror 加载数据集...
+2025-07-17 14:43:12,259 - src.data_loader - WARNING - 从 HF Mirror 加载失败: Couldn't reach 'squad' on the Hub (LocalEntryNotFoundError)
+2025-07-17 14:43:12,259 - src.data_loader - INFO - 尝试从其他镜像加载数据集...
+2025-07-17 14:43:12,369 - src.data_loader - ERROR - 所有数据源都加载失败: Couldn't reach 'squad' on the Hub (LocalEntryNotFoundError)
+2025-07-17 14:43:12,370 - src.data_loader - INFO - 使用示例数据替代...
+2025-07-17 14:43:12,370 - src.data_loader - INFO - 使用内置示例数据...
+2025-07-17 14:43:12,370 - src.graph_builder - INFO - Building knowledge graph from documents...
+2025-07-17 14:43:12,371 - src.graph_builder - INFO - Created 1 chunks for sample_1
+2025-07-17 14:43:12,371 - src.graph_builder - INFO - Created 1 chunks for sample_2
+2025-07-17 14:43:12,371 - src.graph_builder - INFO - Created 1 chunks for sample_3
+2025-07-17 14:43:12,371 - src.graph_builder - INFO - Created 1 chunks for sample_4
+2025-07-17 14:43:12,372 - src.graph_builder - INFO - Created 1 chunks for sample_5
+2025-07-17 14:43:12,372 - src.graph_builder - INFO - Created 1 chunks for sample_6
+2025-07-17 14:43:12,372 - src.graph_builder - INFO - Created 1 chunks for sample_7
+2025-07-17 14:43:12,372 - src.graph_builder - INFO - Created 1 chunks for sample_8
+2025-07-17 14:43:12,538 - src.graph_builder - INFO - Built 357 entity relationships
+2025-07-17 14:43:12,538 - src.graph_builder - INFO - Built graph with 70 nodes and 357 edges
+2025-07-17 14:43:12,541 - src.graph_builder - INFO - Detected 7 communities
+2025-07-17 14:43:12,541 - src.rag_engine - INFO - Inserting documents into nano-graphrag...
+2025-07-17 14:43:12,541 - nano-graphrag - INFO - [New Docs] inserting 1 docs
+2025-07-17 14:43:12,692 - nano-graphrag - INFO - [New Chunks] inserting 1 chunks
+2025-07-17 14:43:12,692 - nano-graphrag - INFO - [Entity Extraction]...
+2025-07-17 14:43:12,992 - httpx - INFO - HTTP Request: POST https://idealab.alibaba-inc.com/api/openai/v1/chat/completions "HTTP/1.1 400 "
+2025-07-17 14:43:12,996 - nano-graphrag - INFO - Writing graph with 0 nodes, 0 edges
