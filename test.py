@@ -4,7 +4,7 @@ from openai import OpenAI
 
 # 设置API配置
 client = OpenAI(
-    api_key="d1585aadfbd38ffe09194fe87456f648",
+    api_key="####",
     base_url="https://idealab.alibaba-inc.com/api/openai/v1"
 )
 
