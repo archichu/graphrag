@@ -7,7 +7,7 @@ model:
   max_tokens: 2000
   
   # API 配置
-  api_key: "d1585aadfbd38ffe09194fe87456f648"
+  api_key: "#############"
   base_url: "https://idealab.alibaba-inc.com/api/openai/v1"
 
   # 本地模型配置（可选）
